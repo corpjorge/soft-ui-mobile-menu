@@ -40,6 +40,16 @@ class LoginController extends Controller
     }
 
     /**
+     * Redirect the user to the GitHub authentication page.
+     *
+     * @return Response
+     */
+    public function redirectToProvider($provider)
+    {
+        return Socialite::driver($provider)->redirect('home');
+    }
+
+    /**
      * Obtain the user information from GitHub.
      *
      * @return Response
