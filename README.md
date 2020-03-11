@@ -1,4 +1,4 @@
-AdminLTE-Laravel 5.5
+AdminLTE-Laravel 5.5 -DEAD
 ============
 
 **AdminLTE-Laravel** -- La integración del framework Laravel en su versión 5.5 y la plantilla adminLTE 2.4.2 para iniciar un desarrollo rápido sin necesidad de realizar configuración a gran escala.  
