@@ -1,0 +1,37 @@
+{
+  "name": "soft-ui-mobil",
+  "version": "0.1.0",
+  "description": "Freebie mobil template for Bootstrap 5",
+  "main": "pages/index.html",
+  "directories": {
+    "example": "root"
+  },
+  "scripts": {
+    "watch": "sass --watch assets/scss-mobile/soft-ui-mobile.scss assets/css/soft-ui-mobile.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corpjorge/soft-ui-mobil-pwa"
+  },
+  "keywords": [
+    "soft ui mobil",
+    "bootstrap 5",
+    "pwa",
+    "html mobil",
+    "html css dashboard",
+    "web dashboard",
+    "freebie",
+    "free bootstrap mobil",
+    "css3 mobil",
+    "bootstrap mobil",
+    "frontend",
+    "responsive bootstrap mobil"
+  ],
+  "author": "superfluo (https://superfluo.tech/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corpjorge/soft-ui-mobil-pwa/issues"
+  },
+  "devDependencies": {
+  }
+}
