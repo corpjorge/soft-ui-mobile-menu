@@ -1,27 +1,27 @@
-.theme-light #footer-bar {
+.theme-light #navbar-mobil {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-#footer-bar:not(.iosTabBar) {
+#navbar-mobil:not(.iosTabBar) {
   bottom: 15px !important;
 }
 
-.theme-light #footer-bar a {
+.theme-light #navbar-mobil a {
   color: #1f1f1f;
 }
 
-#footer-bar a:not(.btn) {
+#navbar-mobil a:not(.btn) {
   padding-top: 12px;
   position: relative;
   flex: 1 1 auto;
   color: #1f1f1f;
 }
 
-.theme-light #footer-bar a {
+.theme-light #navbar-mobil a {
   color: #1f1f1f;
 }
 
-#footer-bar a:not(.btn) {
+#navbar-mobil a:not(.btn) {
   padding-top: 12px;
   position: relative;
   flex: 1 1 auto;
@@ -32,19 +32,19 @@ a {
   text-decoration: none !important;
 }
 
-#footer-bar:not(.iosTabBar) {
+#navbar-mobil:not(.iosTabBar) {
   bottom: 15px !important;
 }
 
-.theme-light #footer-bar {
+.theme-light #navbar-mobil {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-#footer-bar:not(.iosTabBar) {
+#navbar-mobil:not(.iosTabBar) {
   bottom: 15px !important;
 }
 
-#footer-bar {
+#navbar-mobil {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -59,7 +59,7 @@ a {
   text-align: center;
 }
 
-.footer-bar-detached {
+.navbar-mobil-detached {
   border-radius: 12px;
   left: 7px !important;
   right: 7px !important;
@@ -70,6 +70,12 @@ a {
 .nav-mobil::before {
   content: "\a";
   white-space: pre;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 /*# sourceMappingURL=soft-ui-mobile.css.map */
