@@ -67,3 +67,5 @@ a {
   bottom: 15px !important;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1) !important;
 }
+
+span::before { content: '\A'; white-space: pre;}
